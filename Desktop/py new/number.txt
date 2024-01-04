@@ -1,0 +1,21 @@
+def add_numbers_up_to_n(n):
+    return sum(range(1, n + 1))
+
+def main():
+    while True:
+        print("\nStage 1: (wait for the user input)")
+        user_input = input("\nEnter Number to add from One (type 'exit' to end): ")
+
+        if user_input.lower() == 'exit':
+            break
+
+        try:
+            n = int(user_input)
+            result = add_numbers_up_to_n(n)
+            print(f"\nStage 3: (Add all numbers from 1 to {n})")
+            print(f"Output> {result}")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+if __name__ == "__main__":
+    main()
