@@ -1,0 +1,1 @@
+ print("\nStage 1: (wait for user input)")
