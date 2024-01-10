@@ -7,4 +7,4 @@ Original file is located at
     https://colab.research.google.com/drive/1pXvdgWjgFzpi9UsIi-XSk1z7xo_NXntz
 """
 
-print("version 1.0")
+print("version 2.0")
